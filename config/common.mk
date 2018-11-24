@@ -174,7 +174,8 @@ PRODUCT_PACKAGES += \
 
 # LocationProvider
 PRODUCT_PACKAGES += \
-    PhoneLocationProvider
+    PhoneLocationProvider \
+    ForceStop
 
 # Extra tools in Lineage
 PRODUCT_PACKAGES += \
