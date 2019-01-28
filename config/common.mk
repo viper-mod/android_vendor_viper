@@ -104,7 +104,6 @@ PRODUCT_COPY_FILES += \
 
 # Fix Dialer
 PRODUCT_COPY_FILES +=  \
-    vendor/viper/prebuilt/common/sysconfig/dialer_experience.xml:system/etc/sysconfig/dialer_experience.xml \
     vendor/viper/prebuilt/common/sysconfig/turbo.xml:system/etc/sysconfig/turbo.xml
 
 # Weather Client
@@ -160,10 +159,10 @@ PRODUCT_PACKAGES += \
 
 # ViperOS Packages
 PRODUCT_PACKAGES += \
-    GContacts \
+    Contacts \
     GDeskClock \
-    GDialer \
-    GMessaging \
+    Dialer \
+    Messaging \
     Launcher3QuickStep \
     Turbo \
     WeatherClient
